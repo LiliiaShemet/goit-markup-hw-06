@@ -627,8 +627,8 @@ background: var(--dark-graylish-blue-color);
 }
 .subscription-title {
   display: block;
-  padding-bottom: 20px;
-  font-weight: var(--font-weight-variable);
+  margin-bottom: 20px;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: var(--letter-spacing);
@@ -825,7 +825,7 @@ input.sign-up-email[placeholder] {
 
 .form-title{
   display: block;
-  padding-bottom: 12px;
+  margin-bottom: 12px;
   font-size: 20px;
   line-height: 1.15;
   text-align: center;
@@ -950,6 +950,9 @@ input.sign-up-email[placeholder] {
     line-height: 1.7;
     letter-spacing: var(--letter-spacing);
     border-color: var(--dark-gray-color);
+    justify-content: center;
+    color: var(--dark-gray-color);
+    font-weight: normal;
 }
 /*  */
 .confidence-link {
